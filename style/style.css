@@ -27,16 +27,20 @@
     color: rgba(3, 7, 18, 0.7);
 }
 
+.green-color {
+    color: #1DD100;
+}
+
 /* nav-menu styles */
 header {
-    margin-top: 50px;
+    margin: 0 auto;
 }
 
 .navber {
     justify-content: space-between;
     align-items:
         center;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 
 .menu-title {
@@ -75,6 +79,98 @@ header {
     display: none;
 }
 
+/* banner section style */
+.banner-container {
+    margin: 0 auto;
+    height: 800px;
+    position: relative;
+}
+
+.banner {
+    background-image: linear-gradient(0deg, rgba(3, 7, 18, 0), rgba(3, 7, 18, 0)), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    border-radius: 32px;
+
+}
+
+.banner-content {
+    text-align: center;
+    max-width: 742px;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #ffff;
+    margin-bottom: 20px;
+    line-height: 86px;
+}
+
+.banner-span {
+    color: #1DD100;
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.banner-description {
+    color: #ffff;
+    font-size: 1.12rem;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+.banner-btn {
+    background-color: #1DD100;
+    border: none;
+    padding: 21px 30px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.banner-cards {
+    background-color: #FFFFFF;
+    position: absolute;
+    bottom: -70px;
+    border-radius: 24px;
+    border-bottom: 4px solid #1DD100;
+    /* margin-left: 100px; */
+    /* max-width: 970px; */
+    /* margin: 0 auto; */
+    /* justify-content: center; */
+    /* align-items: center; */
+
+}
+
+.banner-card {
+    padding: 32px 0;
+    padding-left: 32px;
+    padding-right: 53px;
+}
+
+.banner-card-content {
+    padding-left: 16px;
+    display: grid;
+    gap: 8px;
+}
+
+.banner-card-title {
+    font-size: 2.25rem;
+    font-weight: bold;
+}
+
+/* .banner-card-description {} */
+
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
 
@@ -109,6 +205,7 @@ header {
 
 }
 
+/* medium device style */
 @media screen and (min-width:577px) and (max-width:992px) {
 
     /* shared */
