@@ -30,6 +30,10 @@
 .green-color {
     color: #1DD100;
 }
+.primary-p{
+    font-size: 1.12rem;
+    color: rgba(3, 7, 18, 0.7);
+}
 
 /* nav-menu styles */
 header {
@@ -241,6 +245,58 @@ header {
 .offer_btn{
     background-color: #fff;
     padding: 20px;
+}
+/* poribohone section style */
+.poribohon-container{
+    background-color: #F7F8F8;
+    border-radius: 100px 100px 0 0;
+}
+.greenline-content-contianer{
+    width: 70%;
+}
+.poribhon-title{
+    padding-top: 120px;
+font-size: 2.4rem;
+font-weight: bold;
+text-align: center;
+}
+.poribhon-description{
+    text-align: center;
+    max-width: 735px;
+    margin: 0 auto;
+    padding-top: 24px;
+    padding-bottom: 45px;
+}
+.greenline-container{
+margin: 0 auto;
+background-color: white;
+padding: 32px;
+border-radius: 24px;
+}
+
+.greenline-content{
+    gap: 12px;
+    align-items: center;
+    margin-bottom: 24px;
+    justify-content: space-between;
+}
+.greenline-content-text{
+    gap: 12px;
+}
+.greenline-content-title{
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+.greenline-content-btn{
+align-items: center;
+}
+.greenline-content-two{
+    background-color: #F7F8F8;
+    padding: 32px;
+    border-radius: 24px;
+}
+.greenline-content-two-text{
+    justify-content: space-between;
 }
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
