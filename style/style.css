@@ -30,7 +30,8 @@
 .green-color {
     color: #1DD100;
 }
-.primary-p{
+
+.primary-p {
     font-size: 1.12rem;
     color: rgba(3, 7, 18, 0.7);
 }
@@ -205,9 +206,11 @@ header {
     gap: 40px;
     max-height: 220px;
 }
-.offer-cards2{
+
+.offer-cards2 {
     background-color: #F78C9C;
 }
+
 .card-content-one {
     flex-direction: column;
     justify-content: center;
@@ -238,66 +241,114 @@ header {
     align-items: center;
     justify-content: center;
 }
-.offer-btn{
+
+.offer-btn {
     text-align: center;
     margin-top: 60px;
 }
-.offer_btn{
+
+.offer_btn {
     background-color: #fff;
     padding: 20px;
 }
+
 /* poribohone section style */
-.poribohon-container{
+.poribohon-container {
     background-color: #F7F8F8;
     border-radius: 100px 100px 0 0;
 }
-.greenline-content-contianer{
-    width: 70%;
-}
-.poribhon-title{
+
+.poribhon-title {
     padding-top: 120px;
-font-size: 2.4rem;
-font-weight: bold;
-text-align: center;
+    font-size: 2.4rem;
+    font-weight: bold;
+    text-align: center;
 }
-.poribhon-description{
+
+.poribhon-description {
     text-align: center;
     max-width: 735px;
     margin: 0 auto;
     padding-top: 24px;
     padding-bottom: 45px;
 }
-.greenline-container{
-margin: 0 auto;
-background-color: white;
-padding: 32px;
-border-radius: 24px;
+
+.greenline-container {
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 24px;
+    gap: 30px;
 }
 
-.greenline-content{
+.greenline-content-contianer {
+    width: 80%;
+    padding: 32px;
+}
+
+.greenline-content {
     gap: 12px;
     align-items: center;
     margin-bottom: 24px;
     justify-content: space-between;
+
+
 }
-.greenline-content-text{
+
+.greenline-content-text {
     gap: 12px;
 }
-.greenline-content-title{
+
+.greenline-content-title {
     font-size: 2rem;
     margin-bottom: 12px;
 }
-.greenline-content-btn{
-align-items: center;
+
+.greenline-content-btn {
+    align-items: center;
 }
-.greenline-content-two{
+
+.greenline-content-two {
     background-color: #F7F8F8;
     padding: 32px;
     border-radius: 24px;
+
 }
-.greenline-content-two-text{
+
+.greenline-content-two-text {
+    justify-content: space-between;
+    padding-bottom: 48px;
+    border-bottom: 2px dashed rgba(128, 128, 128, 0.432);
+    margin-top: 24px;
+}
+
+.greenline-content-two-btn-container {
     justify-content: space-between;
 }
+
+.greenline-content-two-btn {
+    width: 30%;
+    margin-top: 24px;
+    padding: 19px 0;
+    border: none;
+    border-radius: 12px;
+}
+
+.greenline-border {
+    max-width: 418px;
+}
+
+.border-img {
+    height: 100%;
+}
+
+.taka {
+    display: grid;
+    place-content: center;
+    place-items: center;
+    gap: 20px;
+
+}
+
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
 
@@ -331,14 +382,17 @@ align-items: center;
     }
 
     /* banner */
-    .banner-title,.banner-span{
+    .banner-title,
+    .banner-span {
         font-size: 3rem;
         line-height: 50px;
     }
-    .banner-description{
+
+    .banner-description {
         letter-spacing: 0;
         color: rgb(182, 184, 189);
     }
+
     .banner-cards {
         width: auto;
         margin: 0 auto;
@@ -362,36 +416,44 @@ align-items: center;
     }
 
     /* offer */
-    .offer-container{
+    .offer-container {
         margin-top: 400px;
     }
+
     .offer-card-contianer {
         flex-direction: column;
     }
+
     .offer-cards {
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1, 1fr);
         background-color: #FFBF0F;
         border-radius: 24px;
         gap: 5px;
         max-height: 220px;
     }
-    .card-content-one,.card-content-three{
+
+    .card-content-one,
+    .card-content-three {
         padding: 20px;
         justify-content: start;
-        
+
     }
-    .card-content-two{
+
+    .card-content-two {
         display: none;
     }
+
     .offer-card-content-title {
         font-size: 1.5rem;
         font-weight: 900;
     }
-    .offer-card-content-subtitle{
+
+    .offer-card-content-subtitle {
         font-weight: 600;
     }
-    .offer_btn{
+
+    .offer_btn {
         background-color: #fff;
         padding: 20px;
     }
