@@ -273,6 +273,7 @@ header {
     padding-bottom: 45px;
 }
 
+/* greenline container */
 .greenline-container {
     margin: 0 auto;
     background-color: white;
@@ -347,6 +348,64 @@ header {
     place-items: center;
     gap: 20px;
 
+}
+
+/* seat container style*/
+.sit-container {
+    margin: 26px auto;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    padding: 30px;
+
+}
+
+.left-side-content {
+    width: 63%;
+}
+
+.first-sit-content {
+    display: grid;
+    gap: 40px;
+}
+
+.first-sit-content-title,
+.select-passenger {
+    border-bottom: 2px dashed rgba(128, 128, 128, 0.432);
+    padding-bottom: 24px;
+
+}
+
+.select-passenger {
+    justify-content: space-between;
+}
+
+.select-passenger-img {
+    gap: 8px;
+    align-items: center;
+}
+.sit-number-png{
+    display: grid;
+    justify-content: end;
+   /* width: 20%; */
+    align-items: center;
+}
+.sit-numbers {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 30px;
+    align-items: center;
+}
+.box,.sit-number-png{
+    background-color: #F7F8F8;
+    padding: 40px 17px;
+    text-align: center;
+    border-radius: 12px;
+
+}
+
+.box-pov{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 /* responsive for mobile */
