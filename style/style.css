@@ -390,8 +390,6 @@ header {
     margin-top: 30px;
     padding: 24px;
     justify-content: center;
-    background-color: #2e30302c;
-
 }
 
 .sit-numbers {
@@ -405,10 +403,13 @@ header {
 .box,
 .sit-number-png {
     background-color: #F7F8F8;
-    padding: 30px 15px;
+    padding: 25px 15px;
     text-align: center;
     border-radius: 12px;
 
+}
+.e1,.d3,.g2{
+    background-color: rgba(18, 197, 18, 0.993);
 }
 
 .box-pov {
