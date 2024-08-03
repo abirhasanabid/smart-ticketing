@@ -383,27 +383,33 @@ header {
     gap: 8px;
     align-items: center;
 }
-.sit-number-png{
-    display: grid;
-    justify-content: end;
-   /* width: 20%; */
-    align-items: center;
+
+.sit-number-png {
+    display: flex;
+    justify-content: center;
+    width: 17.5%;
+    margin-left: auto;
+    background-color: #2e30302c;
+    margin-bottom: 24px;
+    
 }
+
 .sit-numbers {
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
     gap: 30px;
     align-items: center;
 }
-.box,.sit-number-png{
+
+.box,.sit-number-png {
     background-color: #F7F8F8;
-    padding: 40px 17px;
+    padding: 30px 15px;
     text-align: center;
     border-radius: 12px;
 
 }
 
-.box-pov{
+.box-pov {
     display: flex;
     justify-content: space-evenly;
 }
