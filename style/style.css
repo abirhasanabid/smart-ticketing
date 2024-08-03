@@ -361,6 +361,7 @@ header {
 
 .left-side-content {
     width: 63%;
+    margin-right: 32px ;
 }
 
 .first-sit-content {
@@ -423,6 +424,7 @@ header {
 .right-side-content {
     width: 37%;
     padding-left: 64px;
+    border-left: 2px dashed rgba(128, 128, 128, 0.432);
 }
 
 .right-side-content-title {
@@ -469,7 +471,7 @@ header {
     position: relative;
 }
 
-.price-input {
+.price-input,.right-side-input {
     width: 100%;
     border: none;
     padding: 24px;
@@ -489,7 +491,31 @@ header {
     padding: 10px 20px;
     background-color: #1DD100;
 }
-
+/* .right-side-second-content{
+} */
+.right-side-form-title{
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.right-side-input{
+border: 1px solid rgb(206, 199, 199) ;
+}
+.right-second-form-btn{
+    width: 100%;
+    margin-top: 24px;
+    padding: 21px 0;
+    border-radius: 12px;
+    border: none;
+    background-color: #1DD100;
+    color: #ffff;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.tearms-content{
+    margin-top: 24px;
+    justify-content: space-around;
+    text-decoration: underline;
+}
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
 
