@@ -408,13 +408,86 @@ header {
     border-radius: 12px;
 
 }
-.e1,.d3,.g2{
+
+.e1,
+.d3,
+.g2 {
     background-color: rgba(18, 197, 18, 0.993);
 }
 
 .box-pov {
     display: flex;
     justify-content: space-evenly;
+}
+
+.right-side-content {
+    width: 37%;
+    padding-left: 64px;
+}
+
+.right-side-content-title {
+    border-bottom: 2px dashed rgba(128, 128, 128, 0.432);
+    padding-bottom: 24px;
+    padding-left: 30px;
+    margin-bottom: 24px;
+}
+
+.right-side-first-content {
+    background-color: #F7F8F8;
+    border-radius: 12px;
+    padding: 32px;
+}
+
+.first-container {
+    display: grid;
+    gap: 30px;
+}
+
+.first-border {
+    border-bottom: 2px dashed rgba(128, 128, 128, 0.432);
+    padding-bottom: 17px;
+}
+
+.second-border {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.432);
+}
+
+.first {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    align-items: center;
+    gap: 125px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-container {
+    position: relative;
+}
+
+.price-input {
+    width: 100%;
+    border: none;
+    padding: 24px;
+    border-radius: 12px;
+    outline: none;
+}
+
+.price-btn {
+    position: absolute;
+    z-index: 1;
+    border-radius: 5px;
+    right: 10px;
+    border: none;
+    top: 20%;
+    cursor: pointer;
+    color: white;
+    padding: 10px 20px;
+    background-color: #1DD100;
 }
 
 /* responsive for mobile */
