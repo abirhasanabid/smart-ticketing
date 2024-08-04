@@ -363,7 +363,6 @@ header {
     width: 63%;
     margin-right: 32px ;
 }
-
 .first-sit-content {
     display: grid;
     gap: 40px;
@@ -515,6 +514,47 @@ border: 1px solid rgb(206, 199, 199) ;
     margin-top: 24px;
     justify-content: space-around;
     text-decoration: underline;
+}
+/* footer section styles */
+footer{
+    background-color: #030712;
+    /* max-height: 450px; */
+}
+.footer-content-container{
+    margin: 0 auto;
+    padding: 120px 0;
+}
+.footer-first-part{
+    justify-content: space-between;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
+}
+.footer-first-content{
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.footer-title{
+    color: white;
+}
+.footer-description{
+color: #8D8F94;
+}
+.footer-second-content{
+    
+}
+.playstore-content{
+    margin-top: 16px;
+    border: 1px solid white;
+    padding: 10px 24px;
+    border-radius: 12px ;
+    gap: 10px;
+
+}
+.playstore-text{
+}
+.playstore-text-description{
+    text-transform: uppercase;
 }
 /* responsive for mobile */
 @media screen and (max-width: 576px) {
