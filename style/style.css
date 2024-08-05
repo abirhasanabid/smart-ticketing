@@ -43,8 +43,7 @@ header {
 
 .navber {
     justify-content: space-between;
-    align-items:
-        center;
+    align-items: center;
     margin: 50px auto;
 }
 
@@ -361,8 +360,9 @@ header {
 
 .left-side-content {
     width: 63%;
-    margin-right: 32px ;
+    margin-right: 32px;
 }
+
 .first-sit-content {
     display: grid;
     gap: 40px;
@@ -470,7 +470,8 @@ header {
     position: relative;
 }
 
-.price-input,.right-side-input {
+.price-input,
+.right-side-input {
     width: 100%;
     border: none;
     padding: 24px;
@@ -490,16 +491,19 @@ header {
     padding: 10px 20px;
     background-color: #1DD100;
 }
+
 /* .right-side-second-content{
 } */
-.right-side-form-title{
+.right-side-form-title {
     margin-top: 24px;
     margin-bottom: 16px;
 }
-.right-side-input{
-border: 1px solid rgb(206, 199, 199) ;
+
+.right-side-input {
+    border: 1px solid rgb(206, 199, 199);
 }
-.right-second-form-btn{
+
+.right-second-form-btn {
     width: 100%;
     margin-top: 24px;
     padding: 21px 0;
@@ -510,50 +514,54 @@ border: 1px solid rgb(206, 199, 199) ;
     font-size: 1.5rem;
     font-weight: 700;
 }
-.tearms-content{
+
+.tearms-content {
     margin-top: 24px;
     justify-content: space-around;
     text-decoration: underline;
 }
+
 /* footer section styles */
-footer{
+footer {
     background-color: #030712;
     /* max-height: 450px; */
 }
-.footer-content-container{
+
+.footer-content-container {
     margin: 0 auto;
     padding: 120px 0;
 }
-.footer-first-part{
+
+.footer-first-part {
     justify-content: space-between;
     border-bottom: 1px dashed rgba(255, 255, 255, 0.3);
 }
-.footer-first-content{
+
+.footer-first-content {
     max-width: 400px;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
-.footer-title{
+
+.footer-title {
     color: white;
 }
-.footer-description{
-color: #8D8F94;
+
+.footer-description {
+    color: #8D8F94;
 }
-.footer-second-content{
-    
-}
-.playstore-content{
+
+
+.playstore-content {
     margin-top: 16px;
     border: 1px solid white;
     padding: 10px 24px;
-    border-radius: 12px ;
+    border-radius: 12px;
     gap: 10px;
 
 }
-.playstore-text{
-}
-.playstore-text-description{
+.playstore-text-description {
     text-transform: uppercase;
 }
 /* responsive for mobile */
